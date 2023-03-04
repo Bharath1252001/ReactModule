@@ -1,38 +1,128 @@
-.App {
-  text-align: center;
+.heading {
+  position: absolute;
+  width: 692.27px;
+  height: 144px;
+  left: 518px;
+  top: 101px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 121px;
+  background-color: black;
+  color: #ffffff;
 }
+.container {
+  position: absolute;
+  width: 1728px;
+  height: 837px;
+  left: 0px;
+  top: 0px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  background: #000000;
 }
+.search {
+  box-sizing: border-box;
+  font-size: 2rem;
+  position: absolute;
+  width: 1372px;
+  height: 72px;
+  left: 146px;
+  top: 302px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  border: 1px solid #ffffff;
 }
+.searchbtn {
+  position: absolute;
+  width: 260.75px;
+  height: 58px;
+  left: 146px;
+  top: 418px;
+  font-size: 2rem;
+  background: #ffffff;
+}
+.details {
+  box-sizing: border-box;
+  background-color:rgb(241, 224, 201);
+  position: absolute;
+  width: 1585px;
+  height: 800px;
+  left: 90px;
+  top: 342px;
+  font-weight: 2rem;
+  border: 3px solid #000000;
+  border-radius: 30px;
+}
+.weatherdata {
+  position: absolute;
+  width: 912px;
+  height: 160px;
+  left: 90px;
+  top: 10px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 121px;
+
+  color: #000000;
+}
+.checkbox{
+
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  position: absolute;
+width: 669.46px;
+height: 74px;
+left: 152px;
+top: 239px;
 
-.App-link {
-  color: #61dafb;
-}
+  
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.button1{
+
+  /* margin-top: 250px;
+  margin-left: 200px; */
+  font-size: 2rem;
+  
+  position: absolute;
+width: 300.46px;
+height: 74px;
+left: 85px;
+top: 239px;
+padding: 15px;
+cursor: pointer;
+
+}
+.button2{
+  /* margin-top:0px;
+  margin-left: 400px; */
+  font-size: 2rem;
+
+  position: absolute;
+width: 300.46px;
+height: 74px;
+left: 300px;
+top: 239px;
+cursor: pointer;
+  
+
+}
+.input.celsius {
+  width: 40px;
+  height: 400px;
+}
+.details{
+  display: grid;
+  padding: 50px;
+  font-size: 1.3em;
+  /* margin-left: 50px; */
+  row-gap: 30px;
+}
+.bold{
+  font-size: 1.8rem;
+}
+b{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
